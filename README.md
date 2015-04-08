@@ -10,3 +10,5 @@ Adapted from [this template](https://github.com/dbtek/jekyll-bootstrap-3.git).
 
 MIT
 
+[![Build Status](https://drone.io/github.com/JohnDuxbury/JohnDuxbury.github.io/status.png)](https://drone.io/github.com/JohnDuxbury/JohnDuxbury.github.io/latest)
+

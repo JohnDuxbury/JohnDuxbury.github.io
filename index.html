@@ -26,7 +26,7 @@
     background-color: transparent;
     margin: 0px auto;
     position: absolute;   /* leave as "relative" to keep timer centered on your page, or change to "absolute" then change the values of the "top" and "left" properties to position the timer */
-    top: 60px;             /* change to position the timer */
+    top: 0px;             /* change to position the timer */
     left: 0px;            /* change to position the timer; delete this property and it's value to keep timer centered on page */
 }
 </style>
@@ -107,7 +107,6 @@ function countdown(yr,m,d,hr,min){
 
 <body onload="countdown(year,month,day,hour,minute)">
   <h1>This is John's Site</h1>
-  <p>Winter is coming...</p>
 <table id="table" border="0" cellpadding="0" cellspacing="0">
     <tr>
         <td align="center" colspan="6"><div class="numbers" id="count2" style="padding: 5px 0 0 0; "></div></td>

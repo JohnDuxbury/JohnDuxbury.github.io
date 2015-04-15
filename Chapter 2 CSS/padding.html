@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+    <title>Position CSS</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    .large {
+    	font-size:200%;
+    }
+    #green {
+    	color:green;
+    }
+    
+    .underline {
+    	text-decoration:underline;
+    }
+    
+    .bolded {
+    	font-weight:bold;
+    }
+    
+    .purplebox {
+    	background-color:#6A0888;
+    	width:200px;
+    	height:200px;
+    	padding-left:100px;
+    	padding-top:0px;
+
+    }
+    
+    .redbox {
+    	background-color:#FA0505;
+    	width:300px;
+    	height:200px;
+
+    }
+
+	p {
+		padding:0;
+		margin:0;
+	}
+    
+    </style>    
+</head>
+
+<body>
+	<p><strong>Padding is used within the divisions on the page</strong></p><br />
+	<div class="purplebox">
+		<p class="large">This is some text using a .large class</p>
+		<p>More Text</p>
+	</div>
+	
+	<div class="redbox">
+	<p id="green" class="large">This is some more text but using a #green ID and .large class</p>
+	</div>
+
+	
+	<p>The third <span class="underline large bolded">word</span> in this paragraph is underlined by using a SPAN Class</p>
+	
+</body>
+</html>
+

@@ -14,7 +14,7 @@ function getRandomColor()
 		function makeBox()
 		{			
 			var time=Math.random();
-			time=5000*time;
+			time=3000*time;
 
 			setTimeout(function()
 			{

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>Javascript Variables</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+	<button id="stylesChanger">
+		Change the Text!
+	</button>
+	
+	<div id="firstDiv">
+		<p>This is first div text - you'll need to use Console Log - to see what's going on behind the scenes!</p>
+	</div>
+	
+	
+	
+	<script type="text/javascript">
+	
+		var myArray=new Array();
+		
+		myArray[0]="pizza";
+		myArray[1]="chocolate";
+		
+		myOtherArray=["rain","sunshine"];
+		
+		myOtherArray.push("snow");
+		
+		myOtherArray.splice(2,0, "hail", "cloudy");
+		
+		console.log(myOtherArray.length);
+	
+		document.getElementById("stylesChanger").onclick=function(){
+			
+			document.getElementById("firstDiv").innerHTML=myArray[0];
+		}
+		
+	</script>
+
+</body>
+</html>
+
+

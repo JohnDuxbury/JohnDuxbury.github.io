@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <title>Javascript Variables</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+</head>
+
+<body>
+
+	<p>What is the weather like?</p>
+	<input id="weather" placeholder="Rain, Hail or Shine"/>
+	<button id="myButton">Submit</button>
+	
+	<div id="weatherDiv"></div>
+	
+	<script type="text/javascript">
+	
+		document.getElementById("myButton").onclick=function() {
+			
+			if	(document.getElementById("weather").value=="rain"){
+		
+				alert("It's raining!");
+		
+			} else {
+		
+				alert("It's not raining!");
+			}
+		
+		}
+		
+	</script>
+
+</body>
+</html>
+
+

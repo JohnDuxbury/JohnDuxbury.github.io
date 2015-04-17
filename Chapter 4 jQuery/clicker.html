@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chapter 4 jQuery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <style type="text/css">
+    
+    .square {
+    	background-color:red;
+    	height:100px;
+    	width:100px;
+    	margin-top:10px;
+    }
+    
+    #circle {
+    	background-color:green;
+    	height:100px;
+    	width:100px;
+    	border-radius:50px;
+    }
+    
+    </style>
+</head>
+
+<body>
+
+	<div id="circle"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+
+	<script>
+	/*
+		$(".square").click(function()
+		{
+			alert("Square Clicked");
+		});
+	*/	
+	/*
+		$("#circle").click(function()
+		{
+			alert("Circle Clicked");	
+		});
+	*/		
+	
+		$("div").click(function()
+		{
+			alert("Div Clicked");	
+		});		
+	</script>
+	
+</body>
+</html>
+
+

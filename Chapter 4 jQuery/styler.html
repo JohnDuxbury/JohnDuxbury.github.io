@@ -9,7 +9,6 @@
     <script type="text/javascript" src="jquery.min.js"></script>
     <style type="text/css">
     
-    /*
     .square 
     {
     	background-color:red;
@@ -17,8 +16,7 @@
     	width:100px;
     	margin-top:10px;
     }
-    */
-    
+
     #circle {
     	background-color:green;
     	height:100px;
@@ -30,12 +28,12 @@
 </head>
 
 <body>
-	<p id="paragraph">Click your mouse within the circle!</p>
+	<p>Hover Over the Shapes to change their style</p>
+	<p>Or Click the Circle to fade the Squares</p>
 	<div id="circle"></div>
-	
+	<div class="square"></div>
+	<div class="square"></div>
 
-	<p>Hover your mouse over the iFrame</p>
-	<iframe width="300px" height="300px" src="http://johnduxbury.github.io"></iframe>
 
 	<script>
 	/* Square Click
@@ -56,19 +54,31 @@
 			$("p").html("The test has changed!");
 		});		
 	*/
-	
+	/*
 		$("#circle").click(function()
 		{
 			$("#paragraph").html("Well Done!!");
 		});	
-
+	*/
+	/*
 		$("iframe").hover(function()
-		{
-		
+		{	
 			$("iframe").attr("src", "http://johnduxbury.github.io/Chapter%203%20JAVA/project.html");
-		
 		});
-
+	*/
+	$("div").hover(function()
+	{	
+		$(this).css("width", "200px");
+	});
+		
+	$("#circle").click(function()
+	{	
+		//use this one - $(this).css("display", "none");
+		//or this one
+		//$(this).hide();
+		//or this one
+		$(".square").fadeOut();
+	});
 		
 	</script>
 	<p><a href="../Chapter 4 jQuery/index.html">Back to Index</a></p>

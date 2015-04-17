@@ -7,9 +7,9 @@
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script type="text/javascript" src="jquery.min.js"></script>
+    <!--
     <style type="text/css">
     
-    /*
     .square 
     {
     	background-color:red;
@@ -17,8 +17,7 @@
     	width:100px;
     	margin-top:10px;
     }
-    */
-    
+
     #circle {
     	background-color:green;
     	height:100px;
@@ -27,15 +26,16 @@
     }
     
     </style>
+    -->
 </head>
 
 <body>
-	<p id="paragraph">Click your mouse within the circle!</p>
-	<div id="circle"></div>
-	
 
-	<p>Hover your mouse over the iFrame</p>
-	<iframe width="300px" height="300px" src="http://johnduxbury.github.io"></iframe>
+	<button id="fadeout">Fade Out!</button>
+	
+	<button id="fadein">Fade In!</button>
+
+	<p id="fadetext">Watch me fade out and fade in when you click the buttons!</p>
 
 	<script>
 	/* Square Click
@@ -56,20 +56,44 @@
 			$("p").html("The test has changed!");
 		});		
 	*/
-	
+	/*
 		$("#circle").click(function()
 		{
 			$("#paragraph").html("Well Done!!");
 		});	
-
+	*/
+	/*
 		$("iframe").hover(function()
-		{
-		
+		{	
 			$("iframe").attr("src", "http://johnduxbury.github.io/Chapter%203%20JAVA/project.html");
-		
 		});
-
+	*/
+	/*
+	$("div").hover(function()
+	{	
+		$(this).css("width", "200px");
+	});*/
 		
+	$("#fadeout").click(function()
+	{	
+		//use this one - $(this).css("display", "none");
+		//or this one
+		//$(this).hide();
+		//or this one
+		$("#fadetext").fadeOut("slow", function()
+		{
+			alert("Fade Out Complete!");
+		});
+	});
+		
+	$("#fadein").click(function()
+	{	
+		$("#fadetext").fadeIn(2000, function()
+		{
+			alert("Fade In Complete");
+		});
+	});
+	
 	</script>
 	<p><a href="../Chapter 4 jQuery/index.html">Back to Index</a></p>
 </body>

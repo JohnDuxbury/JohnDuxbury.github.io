@@ -8,146 +8,182 @@
 
 <url>
   <loc>http://johnduxbury.github.io/</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/index.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/index.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/index.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/index.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/helloworld.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/format.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/forms.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/entities.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/iframe.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%201%20HTML/Project.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/index.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/inline.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/internalcss.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/position.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/padding.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/borders.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/fonts.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%202%20CSS/Project.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/button.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/script.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/bigbutton.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/textchanger.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/circles.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/variables.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/arrays.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/ifstate.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/fingers.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/loops.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/functions.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%203%20JAVA/project.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/embed.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/clicker.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/styler.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/fader.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>http://johnduxbury.github.io/Chapter%204%20jQuery/animate.html</loc>
-  <lastmod>2015-04-18T15:29:52+00:00</lastmod>
+  <lastmod>2015-04-18T15:51:58+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 </urlset>

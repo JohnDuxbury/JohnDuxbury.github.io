@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-    <title>Chapter 4 jQuery</title>
+    <title>jQuery Animation</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -28,9 +28,10 @@
 </head>
 
 <body>
-
+	<p>Click the Circle to grow it!</p>
 	<div id="circle"></div>
-	
+	<br/>
+	<button id="shrinker">Click Me to Shrink it!</button>
 	<script>
 	/* Square Click
 		$(".square").click(function()
@@ -38,7 +39,7 @@
 			alert("Square Clicked");
 		});
 	*/	
-	
+
 		$("#circle").click(function()
 		{
 			$(this).animate(
@@ -50,7 +51,19 @@
 			marginTop:"100"
 			}, 1000);	
 		});
-			
+
+		$("#shrinker").click(function()
+		{
+			$("#circle").animate(
+			{
+			width:"100px",
+			height:"100px",
+			borderRadius:"50px",
+			marginLeft:"0",
+			marginTop:"0"
+			}, 1000);
+		});
+		
 	/*	
 		$("#circle").click(function()
 		{

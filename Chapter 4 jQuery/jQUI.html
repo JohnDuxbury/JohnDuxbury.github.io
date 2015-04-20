@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+    <title>jQuery UI</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script type="text/javascript" src="jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<style>
+	#draggable{
+		height:100px;
+		width:100px;
+		background-color:green;
+		margin:10px;
+		border:1px solid black;
+	}
+
+	#target{
+		height:100px;
+		width:100px;
+		background-color:yellow;
+		margin:10px;
+		border:1px solid black;
+		border-radius:140px;
+	}
+	
+	#resizable{
+		height:100px;
+		width:100px;
+		background-color:blue;
+		margin:10px;
+		border:1px solid black;
+	}
+	#accordion{
+		font-size:0.8em;
+	}
+	#pizza {
+		font-size:1.2em;
+	}
+	</style>
+</head>
+
+<body>
+	<h1>jQuery UI</h1> <h2>(draggable, droppable, resize, sortables and accordion ) </h2>
+
+	<div id="draggable">Drag Me Around <br /><br />(Aim for the Yellow Circle)</div>
+	
+	<div id="resizable" class="ui-widget-content">
+  		<h3 class="ui-widget-header">Resizable</h3>
+  	</div>
+	
+	<div id="target"></div>
+	
+	<div id="pizza">Place your Pizza items into the right order!
+		<ul>
+			<li>Cheese</li>
+			<li>Pizza Base</li>
+			<li>Basil</li>
+			<li>Tomato Sauce</li>
+			<li>Pepperoni</li>
+		</ul>
+	</div>
+	<div id="accordion">Accordion Text!
+	<h3>Accordion One</h3>
+	<div>This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. </div>
+	<h3>Accordion Two</h3>
+	<div>This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. </div>
+	<h3>Accordion Three</h3>
+	<div>This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. </div>
+	<h3>Accordion Four</h3>
+	<div>This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. </div>
+	<h3>Accordion Five</h3>
+	<div>This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. This is some text, with more text and more text. </div>
+	</div>
+	<div><br/></div>
+	
+	<script>
+		$("#draggable").draggable();
+		
+		$("#resizable").resizable();
+		
+		$("#target").droppable({
+			drop: function(ui, event){
+			$("#draggable").css("background-color","red");
+			}
+		});
+
+		$("#accordion").accordion();
+		
+		$("ul").sortable();
+		
+	</script>
+	<p><a href="../Chapter 4 jQuery/index.html">Back to Index</a></p>
+</body>
+</html>
+
+

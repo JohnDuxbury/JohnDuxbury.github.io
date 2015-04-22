@@ -1,6 +1,4 @@
 <?php
-
-	echo "This is PHP! ";
 	
 	$test="I'm am a variable. ";
 	
@@ -16,6 +14,10 @@
 	
 	echo "My name is $name ";
 	
-	echo $$a
+	echo $$a;
+	
+	echo "<br/><br/>";
+	
+	echo "<a href=\"index.html\">Index HTML</a>";
 	
 ?>

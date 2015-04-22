@@ -25,5 +25,5 @@
 	
 	echo "<br/><br/>";
 
-
+	echo "<a href=\"index.html\">Index HTML</a>";
 ?>

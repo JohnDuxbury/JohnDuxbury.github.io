@@ -1,8 +1,8 @@
 <?php
 
-	echo "This is PHP! ";
+	echo "This is PHP! <br/><br/>";
 	
-	echo "<p>This is text</p>"
+ 	//use a \ to escape " from text
 
-	
+	echo "<a href=\"index.html\">Index HTML</a>";
 ?>

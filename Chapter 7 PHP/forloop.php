@@ -29,5 +29,6 @@
 		echo "Key: $key Value: $value <br/>";
 	
 	}
-
+	echo "<br/><br/>";
+	echo "<a href=\"index.html\">Index HTML</a>";
 ?>
